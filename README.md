@@ -1,4 +1,4 @@
-# Server-Side-Javascript
+# ngIntermediate Server Application
 
 This is a working example of a Basic CRUD application developed in Node.js
 
@@ -20,9 +20,7 @@ _**Bunyan** correctly format the logger output_
 
 **PostMan** Chrome Extension to test REST Services
 
-### 01 - Environment
-
-In this branch you can find an empty enviroment ready for you to develop a NodeJS application.
+### Environment
 
 Here is defined a base scheleton for an application.
 You can check it out in `server.js` file.
@@ -34,51 +32,4 @@ There are some npm modules that are everytime usefull, check the list in `packag
 - body-parser - let us pull POST content from our HTTP request
 - bunyan - a simple and fast JSON logging library for node.js services
 
-Run this example with: `nodemon server.js | bunyan`
-
-### 02 - Database Connection and Model Definition
-
-Check out `server.js` to connect to MongoDB and listen for DB related Events.
-
-Open `model/ninja.js` to view how to define a Mongoose Model.
-
-### 03 - Routes and Middleware
-
-Define a custom middleware for all routes to capture the request.
-
-### 04 - Create a Ninja
-
-Define a controller to handle request.
-Define a route to save a Ninja.
-Define a function to create and save a Ninja.
-
-### 05 - Query Ninjas
-
-Define a route to query all Ninjas.
-Define a function to query all Ninjas.
-
-### 06 - Get Ninja
-
-Create a route to get information about a specific Ninja
-Add a parameter to the route
-
-### 07 - Update Ninja
-
-Create a route to delete a specific Ninja
-
-### 08 - Update Ninja
-
-Create a route to update a Ninja
-
-### 09 - Client
-
-Create an Angular application to consume your rest service (out of scope, only for clearance)
-
-To run this application go to `client` folder, execute `npm install`, execute `bower install` and then run with `grunt serve`
-
-## How to view the slides
-
-`cd presentazione`<br>
-`npm install`<br>
-`bower install`<br>
-`grunt serve`
+Run this application with: `nodemon server.js | bunyan`
